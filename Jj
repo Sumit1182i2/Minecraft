@@ -1,0 +1,20 @@
+from mcpi.minecraft import Minecraft
+
+mc = Minecraft.create()
+
+# Set the player's position
+
+mc.player.setPos(0, 10, 0)
+
+# Create a block at a specific location
+
+mc.setBlock(0, 0, 0, 1)
+
+# Set the time of day in the game to daytime
+
+mc.time = "day"
+
+# Change the player's position
+
+mc.player.setPos(10, 20, 30)
+
